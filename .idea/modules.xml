@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ewallet/TransactionServices/TransactionServices.iml" filepath="$PROJECT_DIR$/ewallet/TransactionServices/TransactionServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ewallet/ewallet.iml" filepath="$PROJECT_DIR$/ewallet/ewallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ewallet/notifications-service/notifications-service.iml" filepath="$PROJECT_DIR$/ewallet/notifications-service/notifications-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ewallet/users/user-services.iml" filepath="$PROJECT_DIR$/ewallet/users/user-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ewallet/wallet-service/wallet-service.iml" filepath="$PROJECT_DIR$/ewallet/wallet-service/wallet-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-services" />
+        <module name="wallet-service" />
+        <module name="TransactionServices" />
+        <module name="notifications-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ewallet" target="17" />
+      <module name="notifications-service" target="17" />
+      <module name="TransactionServices" target="17" />
+      <module name="untitled" target="17" />
+      <module name="user-services" target="17" />
+      <module name="wallet-service" target="17" />
+      <module name="wallet-services" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="TransactionServices" options="-parameters" />
+      <module name="notifications-service" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+      <module name="user-services" options="-parameters" />
+      <module name="wallet-service" options="-parameters" />
+      <module name="wallet-services" options="-parameters" />
+    </option>
+  </component>
+</project>
